@@ -15,7 +15,7 @@ The same numbers as the CLI, without leaving the browser.
 [![uPlot](https://img.shields.io/badge/charts-uPlot-2a78d6)](https://github.com/leeoniya/uPlot)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-[Features](#features) · [Quick start](#quick-start) · [How to use it](#how-to-use-it) · [Options](#options) · [How the numbers are produced](#how-the-numbers-are-produced)
+[Features](#features) · [Quick start](#quick-start) · [How to use it](#how-to-use-it) · [Options](#options) · [How the numbers are produced](#how-the-numbers-are-produced) · [AI disclaimer](#ai-disclaimer)
 
 </div>
 
@@ -152,6 +152,10 @@ Each run is a single JSON file in `data/runs/`. Delete the files to clear the hi
 ## Tech
 
 SvelteKit 3 (Svelte 5), Tailwind CSS 4 with shadcn-svelte components, uPlot for charts, autocannon 8. Live updates use Server-Sent Events.
+
+## AI disclaimer
+
+This project is built and maintained with the help of AI tools. Most of the code, the documentation and the screenshots were produced with [Claude Code](https://claude.com/claude-code), under the direction and review of the maintainer. Read the code before relying on it for anything important, and please report anything that looks wrong.
 
 ## License
 
